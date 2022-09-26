@@ -1,0 +1,93 @@
+div.navbar{
+    /* border: 1px solid red; */
+    background-color: var(--darkblue-gray);
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    top: 4rem;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* bloc--1*/
+div.navbar div:first-child{
+    /* border: 1px solid white; */
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.navbar div:first-child div{
+    width: 40px;
+    height: 40px;
+}
+div.navbar div:first-child span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--blue);
+}
+div.navbar div:first-child div img{
+    width: 100%;
+    height: 100%;
+}
+
+/* bloc--2*/
+div.navbar div:nth-child(2){
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.navbar div:nth-child(2) ul{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.navbar div:nth-child(2) ul li{
+    list-style: none;
+}
+div.navbar div:nth-child(2) ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: lighter;
+}
+div.navbar div:nth-child(2) ul li a:hover{
+    color: var(--blue);
+}
+
+/* bloc--3*/
+div.navbar div:last-child{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.navbar div:last-child input{
+    background-color: var(--darkblue-gray);
+    border: 1px solid aliceblue;
+}
+div.navbar div:last-child ul{
+    /* border: 1px solid red; */
+    display: flex;
+}
+div.navbar div:last-child ul li{
+    list-style: none;
+}
+div.navbar div:last-child ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: lighter;
+    margin-left: 0.7rem;
+}
+div.navbar div:last-child ul li a:hover{
+    color: var(--blue);
+}

@@ -1,0 +1,15 @@
+:root{
+  --blue:#61DAFB;
+  --darkblue:#20232A;
+  --darkblue-gray:#20232af2;
+}
+
+.App {
+  text-align: center;
+}
+
+div.body{
+  margin-top: 3rem;
+}
+
+

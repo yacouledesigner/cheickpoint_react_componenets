@@ -1,0 +1,48 @@
+div.top{
+    background-color: var(--darkblue);
+    margin-top: 7rem;
+    padding-top: 20px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.top span:first-child{
+    font-size: 70px;
+    font-weight: bolder;
+    color: var(--blue);
+}
+div.top span.text{
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+}
+div.top div{
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.top div button{
+    width: 50%;
+    height: 100%;
+    background-color: var(--blue);
+    font-size: 20px;
+    cursor: pointer;
+}
+div.top div button:hover{
+    background-color: aliceblue;
+}
+div.top div span{
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
+div.top div span:hover{
+    color: var(--blue);
+}
