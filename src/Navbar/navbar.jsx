@@ -1,5 +1,6 @@
 import "./navbar.css"
 import logo from "../logo.svg";
+import burger from "../burger.svg";
 
 const Navbar = () => {
     return (

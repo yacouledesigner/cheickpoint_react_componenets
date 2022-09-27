@@ -1,3 +1,4 @@
+import "./main.css"
 import Bottom from "./BlocBottom/Bottom";
 import Top from "./BlocTop/Top";
 

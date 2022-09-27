@@ -20,3 +20,12 @@ div.utilities span:nth-child(2){
     margin-right: 0.5rem;
     font-size: 1.3rem;
 }
+
+@media only screen and (max-width: 375px){
+    div.utilities span:first-child{
+        font-size: 0.8rem;
+    }
+    div.utilities span:nth-child(2){
+        font-size: 0.8rem;
+    }
+}

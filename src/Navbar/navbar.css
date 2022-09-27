@@ -91,3 +91,22 @@ div.navbar div:last-child ul li a{
 div.navbar div:last-child ul li a:hover{
     color: var(--blue);
 }
+
+@media only screen and (max-width: 375px){
+    div.navbar{
+        justify-content: center;
+    }
+    div.navbar div:nth-child(2){
+        display: none;
+    }
+    div.navbar div:last-child{
+        display: none;
+    }
+    div.navbar div:first-child{
+        width: 30%;
+    }
+    div.navbar div:first-child div{
+        width: 40px;
+        height: 40px;
+    }
+}

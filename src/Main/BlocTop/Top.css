@@ -46,3 +46,16 @@ div.top div span{
 div.top div span:hover{
     color: var(--blue);
 }
+
+@media only screen and (max-width: 375px){
+    div.top div{
+        width: 50%;
+        height: 10%;
+    }
+    div.top div button{
+        font-size: 12px;
+    }
+    div.top div span{
+        font-size: 11px
+    }
+}
